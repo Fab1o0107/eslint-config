@@ -20,7 +20,7 @@
     "extends": "./index.js"
   },
   "dependencies": {
-    "@hazmi35/eslint-config": "^8.1.1"
+    "@rahagia/eslint-config": "^8.1.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.9",
