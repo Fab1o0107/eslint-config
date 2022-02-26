@@ -1,0 +1,50 @@
+{
+  "name": "@fabio0107/eslint-config",
+  "version": "2.0.0",
+  "description": "An ESLint shareable config that I used in my projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fab1o0107/eslint-config.git"
+  },
+  "license": "AGPL-3.0",
+  "author": "fabio0107 <contact@fab1o.xyz>",
+  "bugs": {
+    "url": "https://github.com/Fab1o0107/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Fab1o0107/eslint-config#readme",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "dependencies": {
+    "@hazmi35/eslint-config": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": ">=5.10.0",
+    "@typescript-eslint/parser": ">=5.10.0",
+    "eslint": ">=8.7.0",
+    "typescript": ">=3.3.1 <4.6.0"
+  },
+  "peerDependencies": {
+    "@types/node": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": ">=5.10.0",
+    "@typescript-eslint/parser": ">=5.10.0",
+    "eslint": ">=8.7.0",
+    "typescript": ">=3.3.1 <4.6.0"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
+  }
+}
