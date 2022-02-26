@@ -9,6 +9,7 @@ module.exports = {
         "@typescript-eslint/no-require-imports": "off",
         "@typescript-eslint/no-unsafe-call": "off",
         "@typescript-eslint/unbound-method": "off",
-        "@typescript-eslint/no-dynamic-delete": "off"
+        "@typescript-eslint/no-dynamic-delete": "off",
+        ...require(resolve(__dirname, "..", "index.js")).rules
     }
 };
