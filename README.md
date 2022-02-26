@@ -2,17 +2,17 @@
 > An ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) that I used in my projects ✔
 
 <div align="center">
-<a href="https://www.npmjs.com/package/@fabio0107/eslint-config"><img src="https://img.shields.io/npm/v/@fabio0107/eslint-config?maxAge=3600" alt="NPM version" ><a/>
+<a href="https://www.npmjs.com/package/@fab1o0107/eslint-config"><img src="https://img.shields.io/npm/v/@fab1o0107/eslint-config?maxAge=3600" alt="NPM version" ><a/>
 </div>
 
 ## Install
 
 ```bash
-npm install -D @fabio0107/eslint-config
+npm install -D @fab1o0107/eslint-config
 ```
 or with yarn
 ```bash
-yarn add -D @fabio0107/eslint-config
+yarn add -D @fab1o0107/eslint-config
 ```
 
 ## Usage
@@ -22,19 +22,19 @@ ESLint guide: [link](https://eslint.org/docs/user-guide/configuring#using-a-shar
 Example:
 ```json
 {
-	"extends": "@fabio0107/eslint-config"
+	"extends": "@fab1o0107/eslint-config"
 }
 ```
-or `"@fabio0107/eslint-config/node"` for Node environment
+or `"@fab1o0107/eslint-config/node"` for Node environment
 
 
 Example (TS):
 ```json
 {
-    "extends": "@fabio0107/eslint-config/typescript"
+    "extends": "@fab1o0107/eslint-config/typescript"
 }
 ```
-or `"@fabio0107/eslint-config/typescript/node"` for Node environment
+or `"@fab1o0107/eslint-config/typescript/node"` for Node environment
 
 ## Note
 
