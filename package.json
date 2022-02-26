@@ -7,7 +7,9 @@
     "url": "git+https://github.com/Fab1o0107/eslint-config.git"
   },
   "license": "AGPL-3.0",
-  "author": "fabio0107 <contact@fab1o.xyz>",
+  "author": {
+    "name": "fab1o0107", "email": "contact@fab1o.xyz"
+  },
   "bugs": {
     "url": "https://github.com/Fab1o0107/eslint-config/issues"
   },
