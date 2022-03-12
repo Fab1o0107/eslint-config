@@ -6,6 +6,8 @@ module.exports = {
     rules: {
         "sort-keys": "off",
         "class-methods-use-this": "off",
-        "prefer-named-capture-group": "off"
+        "prefer-named-capture-group": "off",
+        "no-nested-ternary": "off",
+        "no-eval": "off"
     }
 };
