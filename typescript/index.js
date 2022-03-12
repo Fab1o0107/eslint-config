@@ -10,6 +10,12 @@ module.exports = {
         "@typescript-eslint/no-unsafe-call": "off",
         "@typescript-eslint/unbound-method": "off",
         "@typescript-eslint/no-dynamic-delete": "off",
+        "@typescript-eslint/no-shadow": "off",
+        "@typescript-eslint/restrict-plus-operands": "off",
+        "@typescript-eslint/return-await": "off",
+        "@typescript-eslint/restrict-template-expressions": "off",
+        "@typescript-eslint/naming-convention": "off",
+        "@typescript-eslint/no-base-to-string": "off",
         ...require(resolve(__dirname, "..", "index.js")).rules
     }
 };
