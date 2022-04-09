@@ -8,6 +8,7 @@ module.exports = {
         "class-methods-use-this": "off",
         "prefer-named-capture-group": "off",
         "no-nested-ternary": "off",
+        "no-negated-condition": "off",
         "no-eval": "off"
     }
 };
