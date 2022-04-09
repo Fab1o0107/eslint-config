@@ -43,4 +43,4 @@ Requires [ESLint](https://npmjs.com/package/eslint) version 8.12.0 or above
 TypeScript config requires:
  * [@typescript-eslint/parser](https://npmjs.com/package/@typescript-eslint/parser) version 5.18.0 or above
  * [@typescript-eslint/eslint-plugin](https://npmjs.com/package/@typescript-eslint/eslint-plugin) version 5.18.0 or above
- * [typescript](https://npmjs.com/package/typescript) version 3.3.1 to 4.6.0
+ * [typescript](https://npmjs.com/package/typescript) version 3.3.1 to 4.7.0
