@@ -15,6 +15,8 @@ module.exports = {
         "@typescript-eslint/restrict-template-expressions": "off",
         "@typescript-eslint/naming-convention": "off",
         "@typescript-eslint/no-base-to-string": "off",
+        "@typescript-eslint/sort-type-union-intersection-members": "off",
+        "@typescript-eslint/member-ordering": "off",
         ...require(resolve(__dirname, "..", "index.js")).rules
     }
 };
