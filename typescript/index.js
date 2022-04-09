@@ -1,4 +1,3 @@
-/* eslint-disable sort-keys */
 /* eslint-env node */
 const { resolve } = require("path");
 
