@@ -48,5 +48,14 @@
     "typescript": {
       "optional": true
     }
-  }
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript",
+    "typescript",
+    "eslint",
+    "eslint-plugin",
+    "eslint-config"
+  ]
 }
