@@ -38,9 +38,9 @@ or `"@fab1o0107/eslint-config/typescript/node"` for Node environment
 
 ## Note
 
-Requires [ESLint](https://npmjs.com/package/eslint) version 8.12.0 or above
+Requires [ESLint](https://npmjs.com/package/eslint) version 8.15 or newer
 
 TypeScript config requires:
- * [@typescript-eslint/parser](https://npmjs.com/package/@typescript-eslint/parser) version 5.20.0 or above
- * [@typescript-eslint/eslint-plugin](https://npmjs.com/package/@typescript-eslint/eslint-plugin) version 5.20.0 or above
- * [typescript](https://npmjs.com/package/typescript) version 3.3.1 to 4.7.0
+ * [@typescript-eslint/parser](https://npmjs.com/package/@typescript-eslint/parser) version 5.22 or newer
+ * [@typescript-eslint/eslint-plugin](https://npmjs.com/package/@typescript-eslint/eslint-plugin) version 5.22 or newer
+ * [typescript](https://npmjs.com/package/typescript) version 3.3.1 to 4.7
