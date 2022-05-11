@@ -8,7 +8,8 @@
   },
   "license": "AGPL-3.0",
   "author": {
-    "name": "fab1o0107", "email": "contact@fab1o.xyz"
+    "name": "fab1o0107",
+    "email": "contact@fab1o.xyz"
   },
   "bugs": {
     "url": "https://github.com/Fab1o0107/eslint-config/issues"
@@ -22,7 +23,7 @@
     "extends": "./index.js"
   },
   "dependencies": {
-    "@rahagia/eslint-config": "^1.0.1"
+    "@clytage-pkg/eslint-config": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.32",
