@@ -9,6 +9,8 @@ module.exports = {
         "prefer-named-capture-group": "off",
         "no-nested-ternary": "off",
         "no-negated-condition": "off",
-        "no-eval": "off"
+        "no-eval": "off",
+        "function-call-argument-newline": "off",
+        "no-eq-null": "off"
     }
 };
