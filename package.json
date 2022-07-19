@@ -26,20 +26,23 @@
     "@clytage-pkg/eslint-config": "^1.3.0"
   },
   "devDependencies": {
-    "@types/node": "^18.0.3",
+    "@types/node": ">=18.0.6",
     "@typescript-eslint/eslint-plugin": ">=5.30.7",
     "@typescript-eslint/parser": ">=5.30.7",
     "eslint": ">=8.20.0",
     "typescript": ">=3.3.1 <4.8.0"
   },
   "peerDependencies": {
-    "@types/node": "^18.0.3",
+    "@types/node": ">=18.0.6",
     "@typescript-eslint/eslint-plugin": ">=5.30.7",
     "@typescript-eslint/parser": ">=5.30.7",
     "eslint": ">=8.20.0",
     "typescript": ">=3.3.1 <4.8.0"
   },
   "peerDependenciesMeta": {
+    "@types/node": {
+      "optional": true
+    },
     "@typescript-eslint/eslint-plugin": {
       "optional": true
     },
