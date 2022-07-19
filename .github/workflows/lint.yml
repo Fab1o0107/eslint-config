@@ -2,11 +2,9 @@ name: Lint syntax rules
 
 on:
   push:
-    branches:
-      - main
+    branches: main
   pull_request:
-    branches:
-      - "**"
+    branches: "**"
 
 jobs:
   lint:
