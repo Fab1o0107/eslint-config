@@ -7,10 +7,12 @@
             "matchPackagePatterns": [
                 "@clytage/eslint-config",
                 "@typescript-eslint",
-                "eslint",
-                "typescript"
+                "eslint"
             ],
             "groupName": "ESLint Dependencies"
+        }, {
+            "matchPackagePatterns": ["@types", "typescript"],
+            "groupName": "TypeScript Dependencies"
         }
     ]
   }
