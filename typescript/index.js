@@ -1,6 +1,7 @@
 /* eslint-env node */
 const { resolve } = require("path");
 
+/** @type {import("@typescript-eslint/utils").TSESLint.Linter.Config} */
 module.exports = {
     extends: [resolve(__dirname, "..", "index.js"), resolve(require.resolve("@clytage-pkg/eslint-config/typescript"))],
     rules: {
