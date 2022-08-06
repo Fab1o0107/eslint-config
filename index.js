@@ -1,6 +1,7 @@
 /* eslint-env node */
 const { resolve } = require("path");
 
+/** @type {import("eslint").ESLint.ConfigData} */
 module.exports = {
     extends: resolve(require.resolve("@clytage-pkg/eslint-config")),
     rules: {
