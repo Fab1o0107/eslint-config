@@ -58,5 +58,19 @@
     "eslint",
     "eslint-plugin",
     "eslint-config"
+  ],
+  "exports": {
+    "./typescript": {
+      "require": "./typescript/index.js",
+      "node": "./typescript/node.js"
+    },
+    ".": {
+      "require": "./index.js",
+      "node": "./node.js"
+    }
+  },
+  "files": [
+    "typescript/*.js",
+    "*.js"
   ]
 }
