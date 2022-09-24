@@ -17,7 +17,8 @@
   "homepage": "https://github.com/Fab1o0107/eslint-config#readme",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "format": "eslint --ignore-path .gitignore . --fix"
   },
   "eslintConfig": {
     "extends": "./index.js"
