@@ -4,11 +4,7 @@
     "baseBranches": ["main"],
     "npm": {
         "packageRules": [{
-            "matchPackagePatterns": [
-                "@clytage/eslint-config",
-                "@typescript-eslint",
-                "eslint"
-            ],
+            "matchPackagePatterns": ["@clytage/eslint-config", "@typescript-eslint", "eslint"],
             "groupName": "ESLint Dependencies"
         }, {
             "matchPackagePatterns": ["@types", "typescript"],
