@@ -3,12 +3,14 @@
     "extends": ["github>Fab1o0107/renovate-config"],
     "baseBranches": ["main"],
     "npm": {
-        "packageRules": [{
-            "matchPackagePatterns": ["@clytage/eslint-config", "@typescript-eslint", "eslint"],
-            "groupName": "ESLint Dependencies"
-        }, {
-            "matchPackagePatterns": ["@types", "typescript"],
-            "groupName": "TypeScript Dependencies"
-        }]
+        "packageRules": [
+            {
+                "matchPackagePatterns": ["@clytage/eslint-config", "@typescript-eslint", "eslint"],
+                "groupName": "ESLint Dependencies"
+            }, {
+                "matchPackagePatterns": ["@types", "typescript"],
+                "groupName": "TypeScript Dependencies"
+            }
+        ]
     }
 }
