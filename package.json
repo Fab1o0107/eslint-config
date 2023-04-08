@@ -24,7 +24,7 @@
     "extends": "./index.js"
   },
   "dependencies": {
-    "@clytage-pkg/eslint-config": "^1.6.0"
+    "@clytage-pkg/eslint-config": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "*",
