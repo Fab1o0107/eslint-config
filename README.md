@@ -9,9 +9,6 @@
 
 ```bash
 npm install -D @fab1o0107/eslint-config
-```
-or with yarn
-```bash
 yarn add -D @fab1o0107/eslint-config
 ```
 
@@ -23,7 +20,7 @@ ESLint guide: [link](https://eslint.org/docs/user-guide/configuring#using-a-shar
 
 ```json
 {
-	"extends": "@fab1o0107/eslint-config"
+    "extends": "@fab1o0107/eslint-config"
 }
 ```
 or `"@fab1o0107/eslint-config/node"` for Node environment
@@ -39,9 +36,9 @@ or `"@fab1o0107/eslint-config/typescript/node"` for Node environment
 
 ## Note
 
-Requires [ESLint](https://npmjs.com/package/eslint) version 8.30 or newer
+Requires [ESLint](https://npmjs.com/package/eslint) version 8.38 or newer
 
 TypeScript config requires:
-- [@typescript-eslint/parser](https://npmjs.com/package/@typescript-eslint/parser) version 5.46.1 or newer
-- [@typescript-eslint/eslint-plugin](https://npmjs.com/package/@typescript-eslint/eslint-plugin) version 5.46.1 or newer
-- [typescript](https://npmjs.com/package/typescript) version 3.3.1 to 5.0
+- [@typescript-eslint/parser](https://npmjs.com/package/@typescript-eslint/parser) version 5.57.1 or newer
+- [@typescript-eslint/eslint-plugin](https://npmjs.com/package/@typescript-eslint/eslint-plugin) version 5.57.1 or newer
+- [typescript](https://npmjs.com/package/typescript) version 3.3.1 to 6.0
