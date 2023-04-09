@@ -6,23 +6,39 @@ on:
 
 jobs:
   publish-npm:
+    name: NPM Registry
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3 # v3
-      - uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
+      - name: Checkout repository
+        uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3 # v3
+
+      - name: Setup Node.js w/ NPM Registry
+        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
         with:
           registry-url: https://registry.npmjs.org/
-      - run: npm publish --access public
+
+      - name: Publish Package to NPM Registry
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
   publish-gpr:
+    name: GitHub Registry
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3 # v3
-      - uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
+      - name: Checkout repository
+        uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3 # v3
+
+      - name: Setup Node.js w/ GitHub Registry
+        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
         with:
           registry-url: https://npm.pkg.github.com/
-      - run: npm publish
+
+      - name: Publish Package to GitHub Registry
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
