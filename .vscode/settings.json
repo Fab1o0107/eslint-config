@@ -1,5 +1,7 @@
 {
     "eslint.packageManager": "npm",
     "npm.packageManager": "npm",
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "typescript.preferences.importModuleSpecifierEnding": "js",
+    "typescript.tsdk": "node_modules/typescript/lib"
 }
